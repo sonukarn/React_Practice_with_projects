@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
 import BackgroundChanger from "./components/backgroundChanger/BackgroundChanger";
-
+import StopCounter from "./components/StopCounter/StopCounter";
 const App = () => {
   return (
     <div className="App">
-      <BackgroundChanger />
+      <StopCounter />
+      {/* <BackgroundChanger /> */}
     </div>
   );
 };

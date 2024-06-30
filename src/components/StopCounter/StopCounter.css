@@ -1,0 +1,20 @@
+.counter h1 {
+    color: blueviolet;
+}
+
+.counter button {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px;
+    background-color: aqua;
+    color: brown;
+    cursor: pointer;
+}
+
+.counter button:hover {
+    background-color: brown;
+    color: aqua;
+}
